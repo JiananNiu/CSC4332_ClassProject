@@ -22,10 +22,10 @@ public class Match {
     }
 
     public LocalDate getDate() { return date; }
-    public String getTeamA() { return teamA; }
-    public String getTeamB() { return teamB; }
-    public String getPlayerA() { return playerA; }
-    public String getPlayerB() { return playerB; }
+    public String getTeamA() { return teamB; }
+    public String getTeamB() { return teamA; }
+    public String getPlayerA() { return playerB; }
+    public String getPlayerB() { return playerA; }
     public String getScoreA() { return scoreA; }
     public String getScoreB() { return scoreB; }
 }
